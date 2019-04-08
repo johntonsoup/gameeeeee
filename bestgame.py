@@ -11,8 +11,7 @@ def print_board():
         print(g)
 
 def big_dubs():
-    
-        
+    pass
 
 print_board()
 
@@ -48,7 +47,7 @@ while True:
         board[2][2] = 'x'
         print_board()
     p2 = input("player 2 choose position: ")
-      if p2 == "1":
+    if p2 == "1":
         board[0][0] = 'o'
         print_board()
     elif p2 == "2":
@@ -75,6 +74,8 @@ while True:
     elif p2 == "9":
         board[2][2] = 'o'
         print_board()
+        
+
 
     
 
