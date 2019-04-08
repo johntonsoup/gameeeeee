@@ -18,7 +18,7 @@ print_board()
 p1 = "x"
 p2 = "o"
 while True:
-    p1 = input("player 1 choose position: ")
+    p1 = input("Player 1 choose position: ")
     if p1 == "1":
         board[0][0] = 'x'
         print_board()
@@ -46,7 +46,7 @@ while True:
     elif p1 == "9":
         board[2][2] = 'x'
         print_board()
-    p2 = input("player 2 choose position: ")
+    p2 = input("Player 2 choose position: ")
     if p2 == "1":
         board[0][0] = 'o'
         print_board()
