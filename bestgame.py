@@ -12,52 +12,52 @@ def print_board():
 
 def big_dubs():
     
-    if board[0][0]=='x' and board[0][1]== 'x' and board[0][2] == 'x':
+    if board[0][0]=='x' and board[0][1]== 'x' and board[0][2] == 'x':  # across top
         print("Player 1 Wins")
         
-    elif board[1][0] and board[1][1] and board[1][2] == 'x':
+    elif board[1][0]=='x' and board[1][1]=='x' and board[1][2] == 'x': # across middle
         print("Player 1 Wins")
         
-    elif board[2][0] and board[2][1] and board[2][2] == 'x':
+    elif board[2][0]=='x' and board[2][1]=='x' and board[2][2] == 'x': # across bottom
         print("Player 1 Wins")
         
-    elif board[0][0] and board[1][0] and board[2][0] =='x':
+    elif board[0][0]=='x' and board[1][0]=='x' and board[2][0] =='x': # left row
         print("Player 1 Wins")
         
-    elif board[0][1] and board[1][1] and board[2][1] =='x':
+    elif board[0][1]=='x' and board[1][1]=='x' and board[2][1] =='x': # middle row
         print("Player 1 Wins")
         
-    elif board[0][2] and board[1][2] and board[2][2] =='x':
+    elif board[0][2]=='x' and board[1][2]=='x' and board[2][2] =='x': # right row
         print("Player 1 Wins")
         
-    elif board[0][0] and board[1][1] and board[2][2] =='x':
+    elif board[0][0]=='x' and board[1][1]=='x' and board[2][2] =='x': # right diagonal
         print("Player 1 Wins")
         
-    elif board[0][2] and board[1][1] and board[2][0] =='x':
+    elif board[0][2]=='x' and board[1][1]=='x' and board[2][0] =='x': # left diagonal
         print("Player 1 Wins")
         
-    elif board[0][0] and board[0][1] and board[0][2] == 'o':
+    elif board[0][0]=='o' and board[0][1]=='o' and board[0][2] == 'o': # across top
         print("Player 2 Wins")
         
-    elif board[1][0] and board[1][1] and board[1][2] == 'o':
+    elif board[1][0]=='o' and board[1][1]=='o' and board[1][2] == 'o': # across middle
         print("Player 2 Wins")
         
-    elif board[2][0] and board[2][1] and board[2][2] == 'o':
+    elif board[2][0]=='o' and board[2][1]=='o' and board[2][2] == 'o': # across bottom
         print("Player 2 Wins")
         
-    elif board[0][0] and board[1][0] and board[2][0] == 'o':
+    elif board[0][0]=='o' and board[1][0]=='o' and board[2][0] == 'o': # left row
         print("Player 2 Wins")
         
-    elif board[0][1] and board[1][1] and board[2][1] == 'o':
+    elif board[0][1]=='o' and board[1][1]=='o' and board[2][1] == 'o': # middle row
         print("Player 2 Wins")
         
-    elif board[0][2] and board[1][2] and board[2][2] == 'o':
+    elif board[0][2]=='o' and board[1][2]=='o' and board[2][2] == 'o': # right row
         print("Player 2 Wins")
         
-    elif board[0][0] and board[1][1] and board[2][2] == 'o':
+    elif board[0][0]=='o' and board[1][1]=='o' and board[2][2] == 'o': # L to R diagonal
         print("Player 2 Wins")
         
-    elif board[0][2] and board[1][1] and board[2][0] == 'o':
+    elif board[0][2]=='o' and board[1][1]=='o' and board[2][0] == 'o': # R to L diagonal
         print("Player 2 Wins")
         
 print_board()
@@ -157,6 +157,9 @@ while True:
         print_board()
         big_dubs()
         
+
+
+
 
 
     
